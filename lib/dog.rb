@@ -62,8 +62,12 @@ class Dog
   end
   
   def self.find_or_create_by(name:, id:)
+    sql = <<-SQL
     
+    SQL
+  end
   
   def self.update
-    
+  
+  end
 end
