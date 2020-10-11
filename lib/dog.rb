@@ -25,7 +25,8 @@ class Dog
   end
   
   def save
-    
+    if self.id
+      elsif.update
   
   
 end
