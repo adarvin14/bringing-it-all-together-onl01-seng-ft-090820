@@ -8,7 +8,7 @@ class Dog
     @id = id
   end
   
-  self.create_table
+  def self.create_table
     sql = <<-SQL
     CREATE TABLE IF NOT EXISTS dogs (
       id INTEGER PRIMARY KEY,
@@ -17,6 +17,9 @@ class Dog
     )
     SQL
     DB[:conn].execute(sql)
+  end
+  
+  def
   
   
 end
