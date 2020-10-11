@@ -59,5 +59,10 @@ class Dog
   def self.find_by_name(name)
     sql = "SELECT * FROM dogs WHERE name = ?"
     DB[:conn].execute(sql, name).map {|row| new_from_db(row)}.first
+  end
   
+  def self.create
+  
+  def self.update
+    
 end
