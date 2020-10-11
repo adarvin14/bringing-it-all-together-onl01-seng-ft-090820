@@ -48,6 +48,7 @@ class Dog
     id = row[0]
     name = row[1]
     breed = breed[2]
+    self.new()
   end
   
 end
