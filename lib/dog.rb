@@ -32,7 +32,7 @@ class Dog
       INSERT INTO dogs(name, breed)
       VALUES (?, ?)
       SQL
-      
+    
   
   
 end
