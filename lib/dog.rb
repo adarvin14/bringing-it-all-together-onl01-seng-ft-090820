@@ -78,6 +78,6 @@ class Dog
   end
   
   def self.update
-    sql = "UPDATE"
+    sql = "UPDATE dogs SET name = ?"
   end
 end
