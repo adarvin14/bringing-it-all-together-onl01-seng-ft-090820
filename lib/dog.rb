@@ -68,6 +68,8 @@ class Dog
       SQL
     dog = DB[:conn].execute(sql, name, breed)
     
+    if
+    
   end
   
   def self.update
