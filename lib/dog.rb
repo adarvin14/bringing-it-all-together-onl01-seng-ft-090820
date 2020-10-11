@@ -20,7 +20,7 @@ class Dog
   end
   
   def self.drop_table
-    
+    sql = "DOP TABLE IF EXISTS dog"
   
   
 end
