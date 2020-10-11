@@ -8,7 +8,7 @@ class Dog
     @id = id
   end
   
-  
+  self.create_table
   
   
 end
