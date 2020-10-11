@@ -61,7 +61,8 @@ class Dog
     DB[:conn].execute(sql, name).map {|row| new_from_db(row)}.first
   end
   
-  def self.find_or_create_by(name, id)
+  def self.find_or_create_by(name:, id:)
+    
   
   def self.update
     
