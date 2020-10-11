@@ -78,6 +78,6 @@ class Dog
   end
   
   def self.update
-    sql = "SELECT * FROM dogs WHERE"
+    sql = "UPDATE"
   end
 end
